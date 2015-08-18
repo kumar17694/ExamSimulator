@@ -1,0 +1,68 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillViewport="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        >
+
+        <TextView android:text="Programming" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="25sp"
+            android:textColor="#B683BA"
+            android:id="@+id/headExam2"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/questionEdit2"
+            android:layout_below="@+id/headExam2"
+            android:layout_margin="15dp"
+            android:textSize="18sp"/>
+
+        <ListView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/optionsList2"
+            android:layout_below="@+id/questionEdit2"
+            android:layout_margin="10dp"></ListView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/preExam2"
+            android:layout_below="@+id/optionsList2"
+            android:layout_margin="10dp"
+            android:layout_alignParentLeft="true"
+            android:text="previous"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nextExam2"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/optionsList2"
+            android:layout_alignParentRight="true"
+            android:text="next"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/timerexam2"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/finishexam2"
+            android:layout_below="@+id/nextExam2"
+            android:layout_centerHorizontal="true"
+            android:text="Finish Exam"/>
+
+    </RelativeLayout>
+</ScrollView>
