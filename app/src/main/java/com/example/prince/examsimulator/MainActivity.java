@@ -22,8 +22,6 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements OnClickListener {
     RadioGroup rg;
-//    CharSequence[] items = { "5", "10", "15" };
-//    boolean[] itemsChecked = new boolean [items.length];
     int questionCount;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
